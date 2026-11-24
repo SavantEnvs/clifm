@@ -1,0 +1,9 @@
+ShareSelbox=true
+ShowHiddenFiles=true
+Sort=size
+SortReverse=true
+LongViewMode=true
+FilesCounter=false
+MaxFilenameLen=12
+ColorScheme=default
+TimeStyle=%Y-%m-%d

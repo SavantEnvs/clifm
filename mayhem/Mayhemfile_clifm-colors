@@ -1,0 +1,10 @@
+project: savantenvs/clifm
+target: clifm-colors
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/clifm-colors/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/clifm_launch colors @@
+    timeout: 5

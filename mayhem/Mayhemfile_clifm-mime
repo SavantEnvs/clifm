@@ -1,0 +1,10 @@
+project: savantenvs/clifm
+target: clifm-mime
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/clifm-mime/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/clifm --mime-type @@
+    timeout: 5

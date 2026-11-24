@@ -1,0 +1,10 @@
+project: savantenvs/clifm
+target: clifm-keybinds
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/clifm-keybinds/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/clifm_launch keybinds @@
+    timeout: 5

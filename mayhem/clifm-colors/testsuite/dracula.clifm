@@ -1,0 +1,82 @@
+# Theme file for Clifm
+# Theme name: dracula (based on https://github.com/dracula/dracula-theme)
+# Author: L. Abramovich
+# License: GPL2+
+
+define D=#f8f8f2     # Default
+define BD=#f8f8f2-1  # Bold default
+
+define R=#ff5555     # Red
+define BR=#ff5555-1  # Bold red
+define DR=#ff5555-2  # Dimmed red
+
+define G=#50fa7b     # Green
+define BG=#50fa7b-1  # Bold green
+define DG=#50fa7b-2  # Dimmed green
+
+define Y=#f1fa8c     # Yellow
+define BY=#f1fa8c-1  # Bold yellow
+define DY=#f1fa8c-2  # Dimmed yellow
+
+define M=#ff79c6     # Pink
+define BM=#ff79c6-1  # Bold pink
+define DM=#ff79c6-2  # Dimmed pink
+define UM=#ff79c6-4  # Underlined pink
+
+define MK=38;2;255;121;198;48;2;68;68;68
+define BMK=1;38;2;255;121;198;48;2;68;68;68
+
+define M2=#bd93f9    # Purple
+define BM2=#bd93f9-1 # Bold purple
+define DM2=#bd93f9-2 # Dimmed purple
+define UM2=#bd93f9-4 # Underlined purple
+
+define C=#8be9fd     # Cyan
+define BC=#8be9fd-1  # Bold cyan
+define DC=#8be9fd-2  # Dimmed cyan
+define RC=#8be9fd-7  # Reverse cyan
+define UDC=4;2;38;2;139;233;253  # Underlined dimmed cyan
+define BDC=1;2;38;2;139;233;253  # Bold dimmed cyan
+
+define W=#dadada
+define DW=#f8f8f2-2  # Dimmed white
+
+define RW=38;2;255;85;85;48;2;248;248;242   # Red on white
+define BW=38;2;98;114;164;48;2;248;248;242  # Blue on white
+define WR=38;2;248;248;242;48;2;255;85;85   # White on red
+define KY=38;2;40;42;54;48;2;241;250;140    # Black on yellow
+define KR=38;2;40;42;54;48;2;255;85;85      # Black on red
+define KG=38;2;40;42;54;48;2;80;250;123     # Black on green
+define BlGr=38;2;98;114;164;48;2;80;250;123 # Blue on green
+define WB=38;2;248;248;242;48;2;98;114;164  # White on blue
+
+define ARCHIVE=#ff5555-1 # Bold red
+define AUDIO=#8be9fd     # Cyan
+define CODE=#bd93f9      # Purple
+define DOC=#ffb86c       # Orange
+define EBOOK=#ffb86c-1   # Bold orange
+define IMAGE=#ff79c6     # Bold magenta
+define MARKUP=#f1fa8c    # Yellow
+define TEMP=#f8f8f2-2    # Dimmed white
+define VIDEO=#ff79c6-1   # Bold magenta
+
+FiletypeColors="bd=BY:ca=KR:cd=BD:di=BM2:ed=M2:ee=G:ef=DY:ex=BG:fi=D:ln=BC:mh=RC:nd=BR:nf=:no=RW:or=DC:ow=BlGr:pi=MK:sg=KY:so=BMK:st=WB:su=WR:tw=KG:uf=BW:"
+
+InterfaceColors="ac=:db=M2:dd=:de=C:df=W:dg=Y:dk=R:dl=M2:dm=DY:dn=DW:do=C:dp=M2:dr=Y:dw=R:dxd=G:dxr=C:dz=:el=M:em=BR:fc=DW:hb=C:hc=DR:hd=C:he=C:hn=W:hp=C:hq=Y:hr=R:hs=G:hv=G:lc=C:li=BG:mi=BC:nm=BG:sb=DY:sc=DR:sf=UDC:sh=DM2:si=BM2:sp=DR:sx=DG:ti=BC:ts=UM2:tt=BDC:tx=W:wc=BC:wm=BY:ws1=M2:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xf=BR:xs=G:"
+
+ExtColors="*.7z=ARCHIVE:*.ace=ARCHIVE:*.alz=ARCHIVE:*.apk=ARCHIVE:*.arc=ARCHIVE:*.arj=ARCHIVE:*.bz=ARCHIVE:*.bz2=ARCHIVE:*.cab=ARCHIVE:*.cpio=ARCHIVE:*.deb=ARCHIVE:*.dmg=ARCHIVE:*.dwm=ARCHIVE:*.dz=ARCHIVE:*.ear=ARCHIVE:*.esd=ARCHIVE:*.gz=ARCHIVE:*.img=ARCHIVE:*.iso=ARCHIVE:*.jar=ARCHIVE:*.lha=ARCHIVE:*.lrz=ARCHIVE:*.lz=ARCHIVE:*.lz4=ARCHIVE:*.lzh=ARCHIVE:*.lzma=ARCHIVE:*.lzo=ARCHIVE:*.qcow=ARCHIVE:*.qcow2=ARCHIVE:*.rar=ARCHIVE:*.rpm=ARCHIVE:*.rz=ARCHIVE:*.sar=ARCHIVE:*.swm=ARCHIVE:*.t7z=ARCHIVE:*.tar=ARCHIVE:*.taz=ARCHIVE:*.tbz=ARCHIVE:*.tbz2=ARCHIVE:*.tgz=ARCHIVE:*.tlz=ARCHIVE:*.toast=ARCHIVE:*.txz=ARCHIVE:*.tz=ARCHIVE:*.tzo=ARCHIVE:*.tzst=ARCHIVE:*.vcd=ARCHIVE:*.vdi=ARCHIVE:*.vhd=ARCHIVE:*.vhdx=ARCHIVE:*.vmdk=ARCHIVE:*.vsix=ARCHIVE:*.war=ARCHIVE:*.wim=ARCHIVE:*.xz=ARCHIVE:*.z=ARCHIVE:*.zip=ARCHIVE:*.zoo=ARCHIVE:*.zst=ARCHIVE:*.aac=AUDIO:*.aif=AUDIO:*.aifc=AUDIO:*.aiff=AUDIO:*.alac=AUDIO:*.ape=AUDIO:*.au=AUDIO:*.flac=AUDIO:*.m4a=AUDIO:*.mid=AUDIO:*.midi=AUDIO:*.mka=AUDIO:*.mp3=AUDIO:*.ogg=AUDIO:*.opus=AUDIO:*.pcm=AUDIO:*.spx=AUDIO:*.wav=AUDIO:*.wma=AUDIO:*.wv=AUDIO:*.applescript=CODE:*.as=CODE:*.asa=CODE:*.awk=CODE:*.bash=CODE:*.c=CODE:*.c++=CODE:*.cabal=CODE:*.cc=CODE:*.cgi=CODE:*.clj=CODE:*.cp=CODE:*.cpp=CODE:*.cr=CODE:*.cs=CODE:*.csx=CODE:*.cxx=CODE:*.d=CODE:*.dart=CODE:*.def=CODE:*.di=CODE:*.dpr=CODE:*.el=CODE:*.elm=CODE:*.epp=CODE:*.erl=CODE:*.ex=CODE:*.exs=CODE:*.fish=CODE:*.fs=CODE:*.fsi=CODE:*.fsx=CODE:*.gd=CODE:*.go=CODE:*.gradle=CODE:*.groovy=CODE:*.gv=CODE:*.gvy=CODE:*.h=CODE:*.h++=CODE:*.hgrc=CODE:*.hh=CODE:*.hpp=CODE:*.hs=CODE:*.htc=CODE:*.hxx=CODE:*.inc=CODE:*.inl=CODE:*.ipp=CODE:*.ipynb=CODE:*.java=CODE:*.jl=CODE:*.js=CODE:*.jsx=CODE:*.kt=CODE:*.kts=CODE:*.lhs=CODE:*.lisp=CODE:*.ll=CODE:*.lua=CODE:*.m=CODE:*.matlab=CODE:*.mir=CODE:*.ml=CODE:*.mli=CODE:*.mn=CODE:*.nb=CODE:*.p=CODE:*.pas=CODE:*.php=CODE:*.pl=CODE:*.pm=CODE:*.pod=CODE:*.pp=CODE:*.pro=CODE:*.ps1=CODE:*.psd1=CODE:*.psm1=CODE:*.purs=CODE:*.py=CODE:*.r=CODE:*.rb=CODE:*.rs=CODE:*.sbt=CODE:*.scala=CODE:*.sh=CODE:*.swift=CODE:*.t=CODE:*.tcl=CODE:*.td=CODE:*.ts=CODE:*.tsx=CODE:*.vb=CODE:*.vsh=CODE:*.zig=CODE:*.zsh=CODE:*.abw=DOC:*.doc=DOC:*.docx=DOC:*.fodg:*.fodp=DOC:*.fods=DOC:*.fodt=DOC:*.odg=DOC:*.odp=DOC:*.ods=DOC:*.odt=DOC:*.pps=DOC:*.ppt=DOC:*.pptx=DOC:*.rtf=DOC:*.sxi=DOC:*.sxw=DOC:*.txt=DOC:*.xlr=DOC:*.xls=DOC:*.xlsx=DOC:*.azw=EBOOK:*.azw3=EBOOK:*.cb7=EBOOK:*.cba=EBOOK:*.cbr=EBOOK:*.cbt=EBOOK:*.cbz=EBOOK:*.djvu=EBOOK:*.epub=EBOOK:*.fb2=EBOOK:*.kf8=EBOOK:*.kfx=EBOOK:*.mobi=EBOOK:*.oxps=EBOOK:*.pdb=EBOOK:*.pdf=EBOOK:*.ps=EBOOK:*.xps=EBOOK:*.avif=IMAGE:*.bmp=IMAGE:*.gif=IMAGE:*.ico=IMAGE:*.jpeg=IMAGE:*.jpg=IMAGE:*.jxl=IMAGE:*.mjpeg=IMAGE:*.mjpg=IMAGE:*.mng=IMAGE:*.pbm=IMAGE:*.pcx=IMAGE:*.pgm=IMAGE:*.png=IMAGE:*.ppm=IMAGE:*.psd=IMAGE:*.svg=IMAGE:*.svgz=IMAGE:*.tga=IMAGE:*.tif=IMAGE:*.tiff=IMAGE:*.webp=IMAGE:*.xbm=IMAGE:*.xcf=IMAGE:*.xpm=IMAGE:*.css=MARKUP:*.htm=MARKUP:*.html=MARKUP:*.ltx=MARKUP:*.markdown=MARKUP:*.md=MARKUP:*.mdown=MARKUP:*.opf=MARKUP:*.rss=MARKUP:*.shtml=MARKUP:*.tex=MARKUP:*.xhtml=MARKUP:*.xml=MARKUP:*.aux=TEMP:*.bak=TEMP:*.bbl=TEMP:*.bc=TEMP:*.cache=TEMP:*.class=TEMP:*.git=TEMP:*.hi=TEMP:*.idx=TEMP:*.ilg=TEMP:*.ind=TEMP:*.la=TEMP:*.lo=TEMP:*.localized=TEMP:*.lock=TEMP:*.log=TEMP:*.o=TEMP:*.orig=TEMP:*.out=TEMP:*.pid=TEMP:*.pyc=TEMP:*.pyd=TEMP:*.pyo=TEMP:*.rej=TEMP:*.rlib=TEMP:*.sty=TEMP:*.swp=TEMP:*.tmp=TEMP:*.toc=TEMP:*.3gp=VIDEO:*.asf=VIDEO:*.avi=VIDEO:*.cgm=VIDEO:*.dl=VIDEO:*.emf=VIDEO:*.flc=VIDEO:*.fli=VIDEO:*.flv=VIDEO:*.h264=VIDEO:*.heics=VIDEO:*.gl=VIDEO:*.m2ts=VIDEO:*.m2v=VIDEO:*.m4v=VIDEO:*.mkv=VIDEO:*.mov=VIDEO:*.mp4=VIDEO:*.mp4v=VIDEO:*.mpeg=VIDEO:*.mpg=VIDEO:*.nuv=VIDEO:*.ogm=VIDEO:*.ogv=VIDEO:*.ogx=VIDEO:*.qt=VIDEO:*.rm=VIDEO:*.rmvb=VIDEO:*.vob=VIDEO:*.webm=VIDEO:*.wmv=VIDEO:*.xwd=VIDEO:*.yuv=VIDEO:"
+
+DateShades="3,#ff0000-2,#ffffff,#dadada,#bcbcbc,#9e9e9e,#808080"
+SizeShades="3,#ff5555-2,#50fa7b,#68da85,#f1fa8c,#ffb86c,#ff5555"
+
+DirIconColor="Y"
+
+#Prompt="\[\e[0;38;2;248;248;242m\][\S\[\e[0;38;2;248;248;242m\]]\l \A \u:\H \[\e[0;38;2;139;233;253m\]\w\n\[\e[0;38;2;248;248;242m\]<\z\[\e[0;38;2;248;248;242m\]> \[\e[0;38;2;98;114;164m\]\$ \[\e[0m\]"
+Prompt="\[\e[0;38;5;253m\][\S\[\e[0;38;5;253m\]]\l \A \u:\H \[\e[0;38;2;139;233;253m\]\w\n\[\e[0;38;5;253m\]<\z\[\e[0;38;5;253m\]> \[\e[0;38;2;98;114;164m\]\$ \[\e[0m\]"
+Notifications=true
+EnableWarningPrompt=true
+WarningPrompt="\[\e[0;1;38;2;255;85;85m\](!)\[\e[0;2m\] > "
+
+DividingLine="-"
+
+FzfTabOptions="--color='dark,prompt:#8be9fd,fg+:-1,pointer:#6272a4,hl:#50fa7b,hl+:#50fa7b,gutter:-1,marker:#50fa7b:bold,query:#f8f8f2,info:#f8f8f2:dim,border:8' --marker='*' --bind tab:accept,right:accept,left:abort,alt-p:toggle-preview,change:top,alt-up:preview-page-up,alt-down:preview-page-down --tiebreak=begin --inline-info --layout=reverse-list --preview-window=wrap,border-left"

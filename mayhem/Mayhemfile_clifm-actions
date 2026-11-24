@@ -1,0 +1,10 @@
+project: savantenvs/clifm
+target: clifm-actions
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/clifm-actions/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/clifm_launch actions @@
+    timeout: 5

@@ -1,0 +1,10 @@
+project: savantenvs/clifm
+target: clifm-selfile
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/clifm-selfile/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/clifm_launch selfile @@
+    timeout: 5

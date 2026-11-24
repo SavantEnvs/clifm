@@ -1,0 +1,10 @@
+project: savantenvs/clifm
+target: clifm-stdin
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/clifm-stdin/testsuite
+
+cmds:
+  - cmd: /mayhem/mayhem/out/clifm_launch stdin @@
+    timeout: 5
